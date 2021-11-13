@@ -150,6 +150,9 @@ body{
 .menu-bottom-content-height{height:600px;}
 
 
+
+
+
 .menu-bottom-banner{
     background-image: url(../img/1\ \(2\).jpg);
     background-repeat:no-repeat;
@@ -175,15 +178,22 @@ body{
     float:left;
     width:11.11%;
     /* border: 1px solid white; */
+    background-color: #13A0B2;
     
+}
+
+
+.menu-border-left{
+    border-left: 1px dotted white;
+    height:10px;
 }
 
 
 
 .menu ul li a{
     text-decoration: none;
-    background-color: #13A0B2;
-    /* border: 1px solid red; */
+    
+     
     display: block;
     text-align: center;
     padding-top: 20px;
@@ -191,6 +201,13 @@ body{
     color: white;
     font-family: sans-serif;
     
+}
+
+
+
+.menu-last-bg{
+    background-color:yellow;
+    color:black;
 }
 
 
@@ -337,7 +354,7 @@ p-5{
 .line{
     height:1px;
     width:15%;
-    border: 1px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
     margin-top:10px;
     margin-bottom:10px;
 }
@@ -494,8 +511,8 @@ p-5{
 
 
 .testimonial{
-    padding-top:80px;
-    padding-bottom:30px;
+    padding-top:60px;
+    padding-bottom:46px;
 }
 
 
@@ -577,6 +594,32 @@ p-5{
     text-align: justify;
     width: 84%;
     padding-top: 15px;
+}
+
+.circle{
+    margin-left:191px;
+    margin-top:2px;
+}
+
+.circle ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    text-align:center;
+}
+
+.circle ul li{
+    float:left;
+    margin-right:5px;
+    
+}
+.circle ul li a{
+    border:1px solid #12A0B1;
+    height:16px;
+    width:16px;
+    float:left;
+    border-radius: 8px;
+    text-decoration: none;
 }
 
 
@@ -777,20 +820,20 @@ p-5{
 
 .experience-bg{
     background:#12A0B1;
-    padding-top:37px;
+    padding-top:25px;
 }
 
 
 
 .experience-line{
     border-top:6px solid #F6BA18;
-    width:30px;
+    width:33px;
     margin-top:30px;
 }
 
 
 .experience span{
-    font-size:70px;
+    font-size:65px;
     font-weight:bold;
     color:white;
 }
@@ -799,9 +842,10 @@ p-5{
 
 .experience p{
     margin-left: 30px;
-    padding-top: 10px;
+    padding-top: 5px;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 17px;
+    color:white;
 }
 
 
@@ -1170,7 +1214,12 @@ p-5{
 
 .partners-bg{
     background-color:white;
-    padding-top:60px;
+    padding-top:50px;
+    padding-bottom: 30px;
+    background-image: url(../img/get-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 
@@ -1316,23 +1365,24 @@ p-5{
 
 
 .form-input{
-    width: 580px;
-    height: 47px;
+    width: 515px;
+    height: 40px;
     margin-top:12px;
     margin-bottom:4px;
-    border:2px solid rgba(128, 128, 128,0.6);
+    border:2px solid rgba(128, 128, 128,0.3);
 }
 
 
 
 .partner-right-form{
     padding-top: 12px;
-    padding-left: 25px;
+    padding-left: 19px;
 }
 
 
 .partner-right-border{
     border:9px solid rgba(128, 128, 128,0.1);
+    padding-bottom:-17px;
 }
 
 .partner-right-content{
@@ -1349,17 +1399,20 @@ p-5{
 .form-btn{
     text-decoration: none;
     color: white;
-    height: 58px;
-    width: 154px;
-    padding-top: 20px;
+    height: 48px;
+    width: 179px;
+    padding-top: 15px;
     display: block;
     padding-bottom: 20px;
     background-color: #13A0B2;
-    padding-left: 19px;
+    padding-left: 36px;
     margin-bottom: 20px;
-    padding-right:10px;
+    padding-right: 10px;
     border-radius: 5px;
 }
+
+
+
 
 
 .form-icon{
@@ -1397,7 +1450,7 @@ p-5{
     margin-top: 29px;
     /* font-family: 'PT Serif', serif; */
     font-style: italic;
-    font-size:33px;
+    font-size:29px;
     font-weight:300;
 }
 
@@ -1457,7 +1510,7 @@ p-5{
 
 
 .our-service-social-icon{
-    margin-top: 26px;
+    margin-top: 22px;
 }
 
 
@@ -1477,14 +1530,14 @@ p-5{
 
 
 .our-service-social-icon ul li a{
-    border:1px solid gray;
-color:gray;
-display:block;
-width:40px;
-text-align:center;
-padding-top:11px;
-height:40px;
-border-radius: 20px;
+    border: 1px solid gray;
+    color: gray;
+    display: block;
+    width: 36px;
+    text-align: center;
+    padding-top: 9px;
+    height: 36px;
+    border-radius: 18px;
 
 }
 
@@ -1494,7 +1547,7 @@ border-radius: 20px;
 
 .our-service-icon{
     color: #13A0B2;
-    font-size:22px;
+    font-size:20px;
     font-weight: bold;
 }
 
@@ -1503,6 +1556,8 @@ border-radius: 20px;
 .our-service-first-p{
     color:#645E57;
     margin-top: 20px;
+    padding-right: 54px;
+    text-align: justify;
 }
 
 
@@ -1520,8 +1575,9 @@ border-radius: 20px;
 }
 
 
-.our-service-content-column-two h2{
+.our-service-content-column-two h3{
     color: white;
+    font-size: 20px;
 }
 
 .service-bg{
@@ -1548,7 +1604,7 @@ border-radius: 20px;
 .service-list ul li a{
     text-decoration: none;
     color:#645E57;
-    font-size:18px;
+    font-size:16px;
 }
 
 .s-i-m-r{
@@ -1582,8 +1638,9 @@ border-radius: 20px;
 
 
 
-.our-service-content-column-three h2{
+.our-service-content-column-three h3{
     color: white;
+    font-size:20px;
 }
 
 
@@ -1603,8 +1660,9 @@ border-radius: 20px;
 
 
 
-.our-service-content-column-four{
+.our-service-content-column-four h3{
     color:white;
+    font-size:20px;
 }
 
 .service-img-wrapper{
